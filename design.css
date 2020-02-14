@@ -1,0 +1,68 @@
+.image{
+    position: fixed;
+    top:400px;
+
+    left: 800px;
+
+
+
+}
+
+.button{
+    position:fixed;
+    top:504px;
+    left:701px;
+    border-color:-internal-light-dark-color(black, white);
+    width: 428px;
+    height: 36px;
+    border-radius:18px ;
+    padding-left: 36px;
+    padding-right: 28px;
+}
+.icon{
+    background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    width: 10px ;
+    height: 10 px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:none;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+      
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    text-decoration: underline;
+
+  }
+#search{
+    position: absolute;
+    left: 711px;
+    top: 514px;
+    z-index: 1;
+}
+.fakemicrophone{
+    position: absolute;
+    left: 1168px;
+    top: 513px;
+    z-index: 1;
+}
+#app{
+    padding-top: 1px;
+}
